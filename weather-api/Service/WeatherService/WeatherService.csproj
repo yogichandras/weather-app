@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoFixture" Version="4.18.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="6.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Data\GlobalData\GlobalData.csproj" />
+    <ProjectReference Include="..\..\Utils\GlobalUtil\GlobalUtil.csproj" />
+    <ProjectReference Include="..\GeneralService\GeneralService.csproj" />
+  </ItemGroup>
+
+</Project>
